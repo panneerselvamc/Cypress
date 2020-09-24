@@ -1,0 +1,16 @@
+{
+  "name": "cypressTesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cyrun":"cypress run -C test/functional/cypress-config.json",
+    "cyopen":"cypress open -C test/functional/cypress-config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "4.10.0"
+  }
+}
